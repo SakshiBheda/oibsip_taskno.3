@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+
+body{
+    background-image:linear-gradient(120deg,rgb(27, 2, 19),rgb(56, 47, 87));
+    color:white;
+    font-family: 'poppins',sans-serif;
+   min-height:100vh;
+    
+}
+
+header{
+ 
+    min-height:20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    
+    min-height:20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input, form button{
+     padding: 0.5em;
+     font-size: 20px;
+     border: none;
+     background-color: white;
+}
+form button{
+    color: rgb(87, 20, 46);
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+
+form button:hover{
+    background:rgb(97, 22, 72);
+    color: white;
+}
+
+.todo-container{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.todo-list{
+
+    min-width:30%;
+    list-style: none;
+
+}
+
+.todo{
+    
+    margin: 0.5rem;
+    background-color: aliceblue;
+    color: black;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.5s ease;;
+
+}
+.todo li{
+    flex:1;
+
+}
+
+.complete-button,.delete-button{
+    background:rgb(17, 53, 53);
+    color: aliceblue;
+    border: none;
+    padding:1rem;
+    cursor: pointer;
+    font-size:1rem;
+
+
+}
+
+.delete-button{
+    background:rgba(78, 8, 23, 0.952);
+}
+
+.todo-item{
+    padding: 0rem 0.5rem;
+}
+.fa-check-circle{
+    pointer-events:none;
+}
+
+.fa-trash{
+    pointer-events:none;
+}
+.fa-edit{
+    pointer-events:none;
+}
+
+.completed{
+    text-decoration: line-through;
+    opacity:0.5;
+}
+
+select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    border: none;
+}
+
+.select{
+    margin:1rem;
+    position: relative;
+    overflow: hidden;
+}
+
+select{
+    color:purple;
+    width: 10rem;
+    cursor:pointer;
+    padding: 1rem;
+}
+
+.select::after{
+    content: "\25BC";
+    position: absolute;
+    background:rgb(63, 3, 63);
+    top: 0;
+    right: 0;
+    padding:0.7rem;
+    pointer-events: none;
+    transition: 0.3s ease;
+}
+
+.select:hover::after{
+    background: rgb(228, 227, 225);
+    color:rgb(63, 3, 63);
+}
+a{
+    color:white ;
+    font-size: 30px;
+}
+
+.edit-button{
+    background:rgb(18, 38, 85);
+    color: aliceblue;
+    border: none;
+    padding:1rem;
+    cursor: pointer;
+    font-size:1rem;
+}

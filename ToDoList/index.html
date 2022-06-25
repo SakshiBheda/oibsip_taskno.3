@@ -1,0 +1,41 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sakshi's TodoList</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ </head>
+ <body>
+   <header>
+    <h1>Add your List Here</h1>  <p> &#160 &#160 &#160 &#160 <a href="https://github.com/SakshiBheda"><i class="fa-brands fa-github-square"></i></a></p>
+    <p> &#160 &#160 &#160 &#160 <a href="https://www.linkedin.com/in/sakshi-bheda-838640201?lipi=urn%3Ali%3Apage%3Aprofile_edit_contact_info%3Bacbd984a-d4b8-4f39-b4e3-23ce3b0f7be6"><i class="fa-brands fa-linkedin"></i></i></a></p>
+   
+   </header>
+    <form>
+  
+        <input type="text" class="todo-input" placeholder=" &#9997 Write here..">
+        <button class="todo-button" type="submit"> <div class="fa-1x">
+            <i class="fa-solid fa-circle-plus fa-beat"></i></div>
+        </button>
+
+        <div class="select">
+            <select name="todos" class="filter-todo">
+                <option value="all">All</option>
+                <option value="completed">Completed  </option>
+                <option value="uncompleted">Uncompleted</option>
+            </select>
+        </div>
+    </form>
+  <div class="todo-container">
+     <ul class="todo-list"></ul>
+      
+  </div>
+     
+ 
+     <script src="app.js"></script>
+ </body>
+ </html>

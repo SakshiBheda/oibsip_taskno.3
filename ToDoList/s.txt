@@ -1,0 +1,61 @@
+Q1. What will be the output and why ?
+
+const obj = {
+  test: "one",
+  fn: function(){
+    return this.test
+  },
+  fn2:()=>{
+    return this.test
+  }
+}
+console.log(obj.fn())
+console.log(obj.fn2())
+
+Q2. Given numAr = [ 4, 6, 8, 11, 13];
+Create an array in which each element of numAr is incremented by 5.
+Create an array which has all the elements less or equal to 7.
+
+Q3. Convert const str = "mississippi" into an array of characters using either rest or spread operator which ever is
+suitable.
+
+Q4. O
+Jay Prajapati12:33
+Work will be on replit?
+Krupali Tandel12:33
+Done
+Jamal12:33
+Q4. Output of the following :-
+const props = 
+  { id: 1, name: 'Fizz'}
+
+
+const { name } = props;
+
+console.log(name);
+
+Q5. let arr = [3, 5, 1];
+let arr2 = [8, 9, 15];
+Using these 2 arrays construct another array with elements from these arrays and additionally have nos 100, 110, 121.
+
+Q6. Explore about api, json in javascript.
+
+Q7. Convert function noramlFunction(a, b){
+	const c = a *b;
+	return c;
+}  into an arrow function
+19BEEC 30O1512:33
+Yes @hay prajapati
+Jamal12:34
+Q8. Write code to loop through the following object:-
+
+const studentObj = {
+	name: "Student1",
+	rollNo: 11,
+	institute: "Vnurture"
+}
+
+Q9. Create a simple webpage, add a paragraph with some text content to it
+ and print the value of it on console using  id in javascript.
+
+Q10. What is the best way to import css in a html file ?
